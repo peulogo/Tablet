@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Test</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <ul class="header__info info">
+                    <li class="info__item">
+                        <div class="info__item-wrapper">
+                            <span class="info__text">Всего инцидетнов</span>
+                            <div class="info__value">
+                                <span class="info__value-number">1576</span>
+                                <div class="info__value-diff diff">
+                                    <svg class="diff__arrow _grow _red">
+                                        <use xlink:href="./assets/sprite.svg#arrow"></use>
+                                    </svg>
+                                    <span class="diff__value">+16%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="info__item">
+                        <div class="info__item-wrapper">
+                            <span class="info__text">Высокая важность</span>
+                            <div class="info__value">
+                                <span class="info__value-number _red">157</span>
+                                <div class="info__value-diff diff">
+                                    <svg class="diff__arrow _grow _red">
+                                        <use xlink:href="./assets/sprite.svg#arrow"></use>
+                                    </svg>
+                                    <span class="diff__value">+8%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="info__item">
+                        <div class="info__item-wrapper">
+                            <span class="info__text">Средняя важность</span>
+                            <div class="info__value">
+                                <span class="info__value-number _yellow">253</span>
+                                <div class="info__value-diff diff">
+                                    <svg class="diff__arrow _grow _red">
+                                        <use xlink:href="./assets/sprite.svg#arrow"></use>
+                                    </svg>
+                                    <span class="diff__value">+3%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="info__item">
+                        <div class="info__item-wrapper">
+                            <span class="info__text">Всего связей</span>
+                            <div class="info__value">
+                                <span class="info__value-number">88</span>
+                                <div class="info__value-diff diff">
+                                    <svg class="diff__arrow _grow">
+                                        <use xlink:href="./assets/sprite.svg#arrow"></use>
+                                    </svg>
+                                    <span class="diff__value">+2%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="info__item">
+                        <div class="info__item-wrapper">
+                            <span class="info__text">Исходящий трафик</span>
+                            <div class="info__value">
+                                <span class="info__value-number">653 МБ</span>
+                                <div class="info__value-diff diff">
+                                    <svg class="diff__arrow _fall">
+                                        <use xlink:href="./assets/sprite.svg#arrow"></use>
+                                    </svg>
+                                    <span class="diff__value">+8%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="info__item">
+                        <div class="info__item-wrapper">
+                            <span class="info__text">Входящий трафик</span>
+                            <div class="info__value">
+                                <span class="info__value-number">476 МБ</span>
+                                <div class="info__value-diff diff">
+                                    <svg class="diff__arrow _grow">
+                                        <use xlink:href="./assets/sprite.svg#arrow"></use>
+                                    </svg>
+                                    <span class="diff__value">+16%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__container">
+                <div class="main__wrapper">
+                    <span class="main__no-data">Данный не обнаружены</span>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer____container">
+                <div class="footer__item">
+                    <div class="footer__user">
+                        <h3 class="footer__title">Пользователи по инцидентам</h3>
+                        <table class="footer__table user-table">
+                            <thead>
+                                <tr>
+                                    <th>Пользователь</th>
+                                    <th>Инциденты</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Андрей Иванов</td>
+                                    <td>
+                                        <ul class="user-table__row">
+                                            <li class="user-table__item">
+                                                50<span class="user-table__mark mark_pink"></span>
+                                            </li>
+                                            <li class="user-table__item">
+                                                18<span class="user-table__mark mark_yellow"></span>
+                                            </li>
+                                            <li class="user-table__item">
+                                                31<span class="user-table__mark mark_green"></span>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Михаил Вешкин</td>
+                                    <td>
+                                        <ul class="user-table__row">
+                                            <li class="user-table__item">
+                                                47<span class="user-table__mark mark_pink"></span>
+                                            </li>
+                                            <li class="user-table__item">
+                                                24<span class="user-table__mark mark_yellow"></span>
+                                            </li>
+                                            <li class="user-table__item">
+                                                0<span class="user-table__mark mark_green _circle"></span>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Семен Измайлов</td>
+                                    <td>
+                                        <ul class="user-table__row">
+                                            <li class="user-table__item">
+                                                32<span class="user-table__mark mark_pink"></span>
+                                            </li>
+                                            <li class="user-table__item">
+                                                0<span class="user-table__mark mark_yellow _circle"></span>
+                                            </li>
+                                            <li class="user-table__item">
+                                                12<span class="user-table__mark mark_green"></span>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Николай Островский</td>
+                                    <td>
+                                        <ul class="user-table__row">
+                                            <li class="user-table__item">
+                                                11<span class="user-table__mark mark_pink"></span>
+                                            </li>
+                                            <li class="user-table__item">
+                                                7<span class="user-table__mark mark_yellow"></span>
+                                            </li>
+                                            <li class="user-table__item">
+                                                0<span class="user-table__mark mark_green _circle"></span>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Константин Константинопольский</td>
+                                    <td>
+                                        <ul class="user-table__row _opacity">
+                                            <li class="user-table__item">
+                                                0<span class="user-table__mark mark_pink _circle"></span>
+                                            </li>
+                                            <li class="user-table__item">
+                                                0<span class="user-table__mark mark_yellow _circle"></span>
+                                            </li>
+                                            <li class="user-table__item">
+                                                8<span class="user-table__mark mark_green"></span>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Александр Овчинников</td>
+                                    <td>
+                                        <ul class="user-table__row _opacity">
+                                            <li class="user-table__item">
+                                                0<span class="user-table__mark mark_pink _circle"></span>
+                                            </li>
+                                            <li class="user-table__item">
+                                                13<span class="user-table__mark mark_yellow"></span>
+                                            </li>
+                                            <li class="user-table__item">
+                                                7<span class="user-table__mark mark_green"></span>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__category">
+                        <h3 class="footer__title">Категории сайтов</h3>
+                        <table class="footer__table category-table">
+                            <thead>
+                                <tr>
+                                    <th>Категория <span></span></th>
+                                    <th>Количество инцидетнов</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="category-table__category">
+                                        <div class="category-table__category-text">
+                                            Поисковики
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="category-table__row">
+                                            <span class="category-table__value">1 257</span>
+                                            <div class="category-table__diff">
+                                                <svg class="category-table__arrow _grow _pink">
+                                                    <use xlink:href="./assets/sprite.svg#arrow"></use>
+                                                </svg>
+                                                <span class="category-table__diff-value _opacity">+3%</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="category-table__category">
+                                        <div class="category-table__category-text">
+                                            Новостные порталы
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="category-table__row">
+                                            <span class="category-table__value">1 129</span>
+                                            <div class="category-table__diff">
+                                                <svg class="category-table__arrow _fall _green">
+                                                    <use xlink:href="./assets/sprite.svg#arrow"></use>
+                                                </svg>
+                                                <span class="category-table__diff-value _opacity">+2%</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="category-table__category">
+                                        <div class="category-table__category-text">
+                                            Развлекательные
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="category-table__row">
+                                            <span class="category-table__value">987</span>
+                                            <div class="category-table__diff">
+                                                <svg class="category-table__arrow _grow _pink">
+                                                    <use xlink:href="./assets/sprite.svg#arrow"></use>
+                                                </svg>
+                                                <span class="category-table__diff-value _opacity">+7%</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="category-table__category">
+                                        <div class="category-table__category-text">
+                                            Категория с длинным названием, котоое обрезается по ширине альмаматер
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="category-table__row">
+                                            <span class="category-table__value">596</span>
+                                            <div class="category-table__diff">
+                                                <svg class="category-table__arrow _fall _green">
+                                                    <use xlink:href="./assets/sprite.svg#arrow"></use>
+                                                </svg>
+                                                <span class="category-table__diff-value _opacity">+3%</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="category-table__category">
+                                        <div class="category-table__category-text">
+                                            Игры
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="category-table__row">
+                                            <span class="category-table__value">431</span>
+                                            <div class="category-table__diff">
+                                                <svg class="category-table__arrow _grow _pink">
+                                                    <use xlink:href="./assets/sprite.svg#arrow"></use>
+                                                </svg>
+                                                <span class="category-table__diff-value _opacity">+1%</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="category-table__category">
+                                        <div class="category-table__category-text">
+                                            Форумы
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="category-table__row">
+                                            <span class="category-table__value">147</span>
+                                            <div class="category-table__diff">
+                                                <svg class="category-table__arrow _grow _pink">
+                                                    <use xlink:href="./assets/sprite.svg#arrow"></use>
+                                                </svg>
+                                                <span class="category-table__diff-value _opacity">+2%</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__category">
+                        <h3 class="footer__title">Дисциплина</h3>
+                        <table class="footer__table discip-table">
+                            <thead>
+                                <tr class="discip-table__title">
+                                    <th>Дата <span></span></th>
+                                    <th>Приход</th>
+                                    <th>Уход<span></span></th>
+                                    <th>Рабочее время</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="discip-table__row">
+                                    <td>20.04</td>
+                                    <td>08:07<span class="discip-table__row-diff _pink">+7мин</span></td>
+                                    <td>16:55<span class="discip-table__row-diff _pink">-5мин</span></td>
+                                    <td class="_pink">07:48</td>
+                                </tr>
+                                <tr class="discip-table__row">
+                                    <td>19.04</td>
+                                    <td>08:07<span class="discip-table__row-diff _green">-4мин</span></td>
+                                    <td>16:55<span class="discip-table__row-diff _pink">+4мин</span></td>
+                                    <td class="_green">08:00</td>
+                                </tr>
+                                <tr class="discip-table__row">
+                                    <td>18.04</td>
+                                    <td>08:07<span class="discip-table__row-diff _pink">+1ч 30мин</span></td>
+                                    <td>16:55<span class="discip-table__row-diff _green">+1ч 30мин</span></td>
+                                    <td class="_green">08:00</td>
+                                </tr>
+                                <tr class="discip-table__row">
+                                    <td>17.04</td>
+                                    <td>08:07<span class="discip-table__row-diff _pink">+47мин</span></td>
+                                    <td>16:55<span class="discip-table__row-diff _pink">+47мин</span></td>
+                                    <td class="_green">08:00</td>
+                                </tr>
+                                <tr class="discip-table__row">
+                                    <td>16.04</td>
+                                    <td>08:07<span class="discip-table__row-diff _pink">+12мин</span></td>
+                                    <td>16:55<span class="discip-table__row-diff _pink">-5мин</span></td>
+                                    <td class="_pink">07:43</td>
+                                </tr>
+                                <tr class="discip-table__row">
+                                    <td>14.04</td>
+                                    <td>08:07<span class="discip-table__row-diff _opacity">-</span></td>
+                                    <td>16:55<span class="discip-table__row-diff _pink">-3мин</span></td>
+                                    <td class="_pink">07:57</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
